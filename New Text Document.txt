@@ -1,0 +1,35 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    System.out.println(totalGrade(20, 10));
+	    
+	    
+	    
+
+	}
+	
+	
+	public static int totalGrade(int num1, int num2){
+    int  result = num1+num2;
+    return result;
+
+}
+}public class Main
+{
+	public static void main(String[] args) {
+	    
+	    System.out.println(totalGrade(20, 10));
+	    
+	    
+	    
+
+	}
+	
+	
+	public static int totalGrade(int num1, int num2){
+    int  result = num1+num2;
+    return result;
+
+}
+}
