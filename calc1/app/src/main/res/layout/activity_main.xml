@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#73E678"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/TEXTVIEW2"
+        android:layout_width="324dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="20dp"
+        android:text="CALCULATOR"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EDITTEXT2"
+        android:layout_width="282dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="20dp"
+        android:hint="First Number"
+        android:inputType="textPersonName"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/EDITTEXT1"
+        android:layout_width="282dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="50dp"
+        android:hint="second number"
+        android:inputType="textPersonName"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="241dp"
+        android:layout_height="80dp"
+        android:text="calculate"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TEXTVIEW1"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TOTAL"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
